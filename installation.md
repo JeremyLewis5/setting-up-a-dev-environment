@@ -1,13 +1,8 @@
-# iTerm2
-
-`brew cask install iterm2`
-
-
 # Oh My Zsh
 
 ### Why install Oh My Zsh?
 
-Your terminal is... not pretty. The default look of bash or zsh can make it very difficult to read. This is actually way more important than it might sound, because being able to quickly read it and understand what's going on is vital to being comfortable and productive on "the command line" (i.e., the termianl), and the command line is the main way coders interact with local and remote computers.
+Your terminal is... not pretty. The default look of bash or zsh can make it very difficult to read. This is actually way more important than it might sound, because being able to quickly read and understand what's going on in your terminal is vital to being comfortable and productive as a developer, because "the command line" is the main way coders interact with local and remote computers.
 
 Oh My Zsh will:
 
@@ -19,9 +14,9 @@ Oh My Zsh will:
 
 ### How To Install Oh My Zsh
 
-[Oh My Zsh's homepage](https://brew.sh/) has a one-line command to copy-and-paste into your terminal. You will have to scroll down a bit or hit the Install oh-my-zsh button to have the page do it for you.
+[Oh My Zsh's homepage](https://ohmyz.sh/) has a one-line command to copy-and-paste into your terminal. Sroll down a bit on that page, or hit the `Install oh-my-zsh` button to have your browser do it for you.
 
-**Important:** Don't forget to skip the `$` at the start!
+**Important:** Don't forget to skip the `$` at the start of the command it gives you!
 
 
 ### Potential Next Steps
@@ -46,7 +41,8 @@ Features:
 
 [The Homebrew front page](https://brew.sh/) has a one-line command to copy-and-paste into your terminal.
 
-**Important:** Don't forget to skip the `$` at the start!
+**Important:** Again, don't forget to skip the `$` at the start of the command it gives you! (I hate that people present terminal commands that way!)
+
 
 
 ### What Will We Install Through `brew`?
@@ -58,19 +54,22 @@ In the meantime, do not install anything! This will all go more smoothly if we i
 
 ##### Visual Studio Code
 
-The absolute premier text editor and dev environment for many languages, most especially JavaScript and TypeScript. User-friendly 
+The absolute premier text editor and dev environment for many languages, most especially JavaScript and TypeScript. User-friendly for beginners, but grows into a powerful dev environment preferred by most front-end engineers.
 
-* Continuously updated by a large team at Microsoft and an even larger team of volunteers/glory hounds. VS Code is always getting better!
-* Built with JavaScript/HTML/CSS, as are its many great extensions. With the most popular ecosystem of extensions, this is another way it continuously improves. And you can write your own using the front-end tools you'll learn at Code Immersives!
-* Grows with you. If you want to edit text very quickly, its vim extension is hard to beat. If you want to improve your code reliability and refactoring speed, VS Code offers the best TypeScript integration out there, since they're both designed by Microsoft. Although user-friendly for beginners, VS Code is preferred by most front end devs.
+
+##### Node
+
+A JavaScript environment run locally through the terminal, this is the tool that's made JavaScript into the powerhouse it is. The back end of the internet is written in JavaScript and run through on Node servers throughout the world.
+
+
+##### Git
+
+
+##### iTerm2
+
+### Git Configuration
   
-  * code
-   * extensions
-  * node
-  * git
-    * git config
-      * editor
-* oh my zsh
-* 
-* Node
-  * jest
+### VS Code Extensions
+
+### Jest
+
