@@ -1,6 +1,6 @@
 # Setting Up A Dev Environment
 
-A guide to setting up a full-stack web develoment environment on macOS.
+A guide to setting up a full-stack web development environment on macOS.
 
 ## Oh My Zsh
 
@@ -17,7 +17,7 @@ Oh My Zsh will:
 
 ### How To Install Oh My Zsh
 
-[Oh My Zsh's homepage](https://ohmyz.sh/) has a one-line command to copy-and-paste into your terminal. Sroll down a bit on that page, or hit the `Install oh-my-zsh` button to have your browser do it for you.
+[Oh My Zsh's homepage](https://ohmyz.sh/) has a one-line command to copy-and-paste into your terminal. Scroll down a bit on that page, or hit the `Install oh-my-zsh` button to have your browser do it for you.
 
 **Important:** Don't forget to skip the `$` at the start of the command it gives you!
 
@@ -76,7 +76,7 @@ One of the best terminal emulators on the Mac, and definitely the one recommende
 
 It's vital that we test our Web Apps in both a variety of browsers and in the browsers that our users tend to use (mostly Chrome).
 
-If you dislike Chrome, You can install the Chromium browser (a degoogled Chrome) or Brave, a privacy-focused browser built on Chromium.
+If you dislike Chrome, You can install the Chromium browser (a de-googled Chrome) or Brave, a privacy-focused browser built on Chromium.
 
 ### Okay, Let's Install All The Things!
 
@@ -86,7 +86,7 @@ Type (or copy-paste) this into your terminal:
 
 `brew install --cask google-chrome firefox visual-studio-code iterm2`
 
-If you prefer Brave or Chromium, you can substitutde `chromium` or `brave-browser` for `google-chrome` in the above line. (Or put them all in?)
+If you prefer Brave or Chromium, you can substitute `chromium` or `brave-browser` for `google-chrome` in the above line. (Or put them all in?)
 
 ## Git Configuration
 
