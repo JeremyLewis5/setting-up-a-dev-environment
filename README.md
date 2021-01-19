@@ -23,7 +23,7 @@ Oh My Zsh will:
 
 ### Potential Next Steps
 
-Check out Oh My Zsh themes, plugins, and extensions. This author has [a theme](https://www.github.com/abbreviatedman/dangerroom) meant to simplify your prompt, the [Powerlevel10K](https://github.com/romkatv/powerlevel10k) theme has many great features and is endlessly customizable, though it does take a small amount of extra setup. There are many plugins you can find out there, but the [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) and [syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) plugins are the first two we'd recommend.
+You can always spruce up your terminal with Oh My Zsh's themes, plugins, and extensions. This author has [a theme](https://www.github.com/abbreviatedman/dangerroom) meant to simplify your prompt, and the [Powerlevel10K](https://github.com/romkatv/powerlevel10k) theme has many great features and is endlessly customizable--though it does take a small amount of extra setup. There are many plugins you can find out there, but the [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) and [syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) plugins are the first two we'd recommend.
 
 ## brew
 
