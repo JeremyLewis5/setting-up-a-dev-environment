@@ -19,7 +19,7 @@ Oh My Zsh will:
 
 [Oh My Zsh's homepage](https://ohmyz.sh/) has a one-line command to copy-and-paste into your terminal. Scroll down a bit on that page, or hit the `Install oh-my-zsh` button to have your browser do it for you.
 
-**Important:** Don't forget to skip the `$` at the start of the command it gives you!
+**Important:** Don't forget to skip the `$` at the start of the command it gives you! This is simply meant to indicate that you should be at a terminal prompt when you type the command in, but can be confusing if you don't know that and try to type in that dollar sign. It won't work if you do!
 
 ### Potential Next Steps
 
@@ -42,23 +42,23 @@ Features:
 
 [The Homebrew front page](https://brew.sh/) has a one-line command to copy-and-paste into your terminal.
 
-**Important:** Again, don't forget to skip the `$` at the start of the command it gives you! (I hate that people present terminal commands that way!) At least this one provides a copy-to-clipboard icon that doesn't include the `$`.
+**Important:** Again, don't forget to skip the `$` at the start of the command it gives you! (I hate that people present terminal commands that way.) At least this one provides a copy-to-clipboard icon that DOESN'T include the `$`...
 
-### What Kinds Of Apps Will We Install Through `brew`?
+### What KINDS Of Apps Will We Install Through `brew`?
 
 Both graphical interface apps, like web browsers and a text editor, and terminal interface tools, like `git` and `node`.
 
 Non-terminal apps must be installed with the command `--cask`, while terminal tools should not use that command.
 
-### What Will We Install Through `brew`?
+### What Specifically Will We Install Through `brew`?
 
-We'll tell you HOW to install all the things in a moment, but let's talk briefly about the WHY for each one.
+Here are the apps we'll install momentarily, as well as a brief description of why we'll be doing so.
 
-In the meantime, do not install anything! This will all go more smoothly if we install through `brew` in one step. Also, some of these apps will actually install _very poorly_ if not done through `brew`.
+In the meantime, do not install anything! This will all go more smoothly if we install through `brew` in one step.
 
 ##### Visual Studio Code
 
-The absolute premier text editor and dev environment for many languages, most especially JavaScript and TypeScript. User-friendly for beginners, but grows into a powerful dev environment preferred by most front-end engineers.
+The absolute premier text editor and development environment for many programming languages, most especially JavaScript and TypeScript. User-friendly for beginners, but grows into a powerful dev environment preferred by most front-end engineers.
 
 ##### Node
 
@@ -66,7 +66,7 @@ A JavaScript environment run locally through the terminal, this is the tool that
 
 ##### Git
 
-The industry standard for saving your code to the cloud, collaborating on software projects from small to world-eatingly huge, and manage software releases. All from the terminal.
+The industry standard for saving your code to the cloud, collaborating on software projects from small to world-eatingly huge, and managing software releases. All from the terminal.
 
 ##### iTerm2
 
@@ -76,13 +76,15 @@ One of the best terminal emulators on the Mac, and definitely the one recommende
 
 It's vital that we test our Web Apps in both a variety of browsers and in the browsers that our users tend to use (mostly Chrome).
 
-If you dislike Chrome, You can install the Chromium browser (a de-googled Chrome) or Brave, a privacy-focused browser built on Chromium.
+If you dislike Chrome, you can install the Chromium browser (a de-googled Chrome) or Brave, a privacy-focused browser built on Chromium.
 
 ### Okay, Let's Install All The Things!
 
 Type (or copy-paste) this into your terminal:
 
 `brew install git node`
+
+Then hit enter, and when it's done, type the following command (and hit enter again):
 
 `brew install --cask google-chrome firefox visual-studio-code iterm2`
 
