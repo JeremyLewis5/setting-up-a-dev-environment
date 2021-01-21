@@ -4,7 +4,7 @@ A guide to setting up a full-stack web development environment on macOS.
 
 ## Oh My Zsh
 
-### Why install Oh My Zsh?
+### Why Install Oh My Zsh?
 
 Your terminal is... not pretty. The default look of bash or zsh can make it very difficult to read. This is actually way more important than it might sound, because being able to quickly read and understand what's going on in your terminal is vital to being comfortable and productive as a developer, because "the command line" is the main way coders interact with local and remote computers.
 
