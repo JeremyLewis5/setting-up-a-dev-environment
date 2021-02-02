@@ -90,6 +90,8 @@ Then hit enter, and when it's done, type the following command (and hit enter ag
 
 If you prefer Brave or Chromium, you can substitute `chromium` or `brave-browser` for `google-chrome` in the above line. (Or put them all in?)
 
+## Adding A Terminal Drop-Down
+
 ## Git Configuration
 
 ## VS Code Extensions
