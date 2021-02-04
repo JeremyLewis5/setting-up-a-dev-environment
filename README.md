@@ -13,7 +13,7 @@ Oh My Zsh will:
 - Make your terminal's data dump much easier to customize.
 - Comes out of the box with a great color scheme and prompt setup.
 - Has better tab completion to help you avoid typing long file paths.
-- Has many amazing extensions, like autosuggesting previous commands.
+- Has many amazing extensions, like auto-suggesting previous commands.
 
 ### How To Install Oh My Zsh
 
@@ -50,7 +50,7 @@ Both graphical interface apps, like web browsers and a text editor, and terminal
 
 Non-terminal apps must be installed with the command `--cask`, while terminal tools should not use that command.
 
-### What Specifically Will We Install Through `brew`?
+### What _Specifically_ Will We Install Through `brew`?
 
 Here are the apps we'll install momentarily, as well as a brief description of why we'll be doing so.
 
