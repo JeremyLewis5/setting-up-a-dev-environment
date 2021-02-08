@@ -2,29 +2,6 @@
 
 A guide to setting up a full-stack web development environment on macOS.
 
-## Oh My Zsh
-
-### Why Install Oh My Zsh?
-
-Your terminal is... not pretty. The default look of bash or zsh can make it very difficult to read. This is actually way more important than it might sound, because being able to quickly read and understand what's going on in your terminal is vital to being comfortable and productive as a developer, because "the command line" is the main way coders interact with local and remote computers.
-
-Oh My Zsh will:
-
-- Make your terminal's data dump much easier to customize.
-- Comes out of the box with a great color scheme and prompt setup.
-- Has better tab completion to help you avoid typing long file paths.
-- Has many amazing extensions, like auto-suggesting previous commands.
-
-### How To Install Oh My Zsh
-
-[Oh My Zsh's homepage](https://ohmyz.sh/) has a one-line command to copy-and-paste into your terminal. Scroll down a bit on that page, or hit the `Install oh-my-zsh` button to have your browser do it for you.
-
-**Important:** Don't forget to skip the `$` at the start of the command it gives you! This is simply meant to indicate that you should be at a terminal prompt when you type the command in, but can be confusing if you don't know that and try to type in that dollar sign. It won't work if you do!
-
-### Potential Next Steps
-
-You can always spruce up your terminal with Oh My Zsh's themes, plugins, and extensions. This author has [a theme](https://www.github.com/abbreviatedman/dangerroom) meant to simplify your prompt, and the [Powerlevel10K](https://github.com/romkatv/powerlevel10k) theme has many great features and is endlessly customizable--though it does take a small amount of extra setup. There are many plugins you can find out there, but the [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) and [syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) plugins are the first two we'd recommend.
-
 ## brew
 
 ### Why Install Homebrew?
@@ -90,9 +67,32 @@ Then hit enter, and when it's done, type the following command (and hit enter ag
 
 If you prefer Brave or Chromium, you can substitute `chromium` or `brave-browser` for `google-chrome` in the above line. (Or put them all in?)
 
+## Oh My Zsh
+
+### Why Install Oh My Zsh?
+
+Your terminal is... not pretty. The default look of bash or zsh can make it very difficult to read. This is actually way more important than it might sound, because being able to quickly read and understand what's going on in your terminal is vital to being comfortable and productive as a developer, because "the command line" is the main way coders interact with local and remote computers.
+
+Oh My Zsh will:
+
+- Make your terminal's data dump much easier to customize.
+- Comes out of the box with a great color scheme and prompt setup.
+- Has better tab completion to help you avoid typing long file paths.
+- Has many amazing extensions, like auto-suggesting previous commands.
+
+### How To Install Oh My Zsh
+
+[Oh My Zsh's homepage](https://ohmyz.sh/) has a one-line command to copy-and-paste into your terminal. Scroll down a bit on that page, or hit the `Install oh-my-zsh` button to have your browser do it for you.
+
+**Important:** Don't forget to skip the `$` at the start of the command it gives you! This is simply meant to indicate that you should be at a terminal prompt when you type the command in, but can be confusing if you don't know that and try to type in that dollar sign. It won't work if you do!
+
+### Potential Next Steps
+
+You can always spruce up your terminal with Oh My Zsh's themes, plugins, and extensions. This author has [a theme](https://www.github.com/abbreviatedman/dangerroom) meant to simplify your prompt, and the [Powerlevel10K](https://github.com/romkatv/powerlevel10k) theme has many great features and is endlessly customizable--though it does take a small amount of extra setup. There are many plugins you can find out there, but the [autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) and [syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) plugins are the first two we'd recommend.
+
 ## Moving Your Control Keys
 
-Control is a un uncommonly-used key on the Mac, but it is used QUITE often in the terminal. You know what key isn't used often? (Or shouldn't be!) Caps Lock. (Stop yelling!) So let's swap them!
+Control is a an uncommonly-used key on the Mac, but it is used QUITE often in the terminal. You know what key isn't used often? (Or shouldn't be!) Caps Lock. (Stop yelling!) So let's swap them!
 
 - Go to your system preferences and choose "Keyboard".
 - Press the button "Modifier Keys..." (It's in the lower right.)
